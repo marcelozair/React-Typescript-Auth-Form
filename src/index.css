@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* #### Global Style #### */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+
+/* #### Font Family #### */
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), local('Inter-Light'),
+    url('./assets/fonts/Inter/static/Inter-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: thin;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), local('Inter-Regular'),
+    url('./assets/fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), local('Inter-Medium'),
+    url('./assets/fonts/Inter/static/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), local('Inter-SemiBold'),
+    url('./assets/fonts/Inter/static/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), local('Inter-Bold'),
+    url('./assets/fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
+}
+
