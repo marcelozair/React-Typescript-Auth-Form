@@ -1,11 +1,15 @@
-import './App.css'
-import { TextField } from './components/form/TextField/TextField'
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <TextField />
-    </div>
+    <main className="app">
+      <Routes>
+        <Route path="/auth/sign-in" element={<p>sign in</p>} />
+        <Route path="/auth/sign-up" element={<p>sign up</p>} />
+        <Route path="/" element={<p>none</p>} />
+      </Routes>
+    </main>
   )
 }
 
