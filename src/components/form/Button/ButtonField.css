@@ -1,0 +1,3 @@
+.button-field-custom {
+  @apply h-[40px] text-site-white px-3 rounded-md bg-site-primary-400 ;
+}

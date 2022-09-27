@@ -1,0 +1,11 @@
+.text-field {
+  @apply flex flex-col;
+}
+
+.text-field__label {
+  @apply text-[16px] font-semibold;
+}
+
+.text-field__input {
+  @apply text-[16px] bg-[#FFF6F8] text-site-letters-text rounded-md h-[40px] px-3 outline-none mt-2 transition-all duration-300 ease-in-out border-2 focus:border-site-primary-400;
+}

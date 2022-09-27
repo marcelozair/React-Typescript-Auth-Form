@@ -11,6 +11,10 @@
   font-weight: 400;
 }
 
+/* #### Links #### */
+.link {
+  @apply text-site-primary-400 underline;
+}
 
 /* #### Font Family #### */
 @font-face {
