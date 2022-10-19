@@ -28,6 +28,7 @@ export const SignIn = () => {
   }
 
   const onSubmit = (values: any) => {
+    console.log('values', );
     setLoading(true);
 
     setTimeout(() => {
@@ -35,7 +36,6 @@ export const SignIn = () => {
       reset();
     }, 1500)
   }
-
 
   return (
     <main className="signin">

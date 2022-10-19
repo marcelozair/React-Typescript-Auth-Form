@@ -30,12 +30,12 @@ export const haveSession = (): boolean => {
 
 export const generateRandomPassword = (): string => {
   const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const passwordLength = 10;
+  const passwordLength = 20;
   let password = "";
 
   for (let i = 0; i <= passwordLength; i++) {
     let randomNumber = Math.floor(Math.random() * chars.length);
-    password += chars.substring(randomNumber, randomNumber +1);
+    password += chars[randomNumber];
    }
 
    return password;
